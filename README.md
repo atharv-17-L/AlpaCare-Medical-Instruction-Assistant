@@ -33,22 +33,26 @@ The project demonstrates how small transformer models can be adapted for **domai
 
 ```
 
+## 📁 Repository Structure
+
+```plaintext
 AlpaCare/
 │
-├── data_loader.py                 # Loads and preprocesses dataset
+├── data_loader.py                 # Loads and preprocesses the dataset
 │
-├── notebooks/
+├── notebooks/                     # Contains Jupyter notebooks
 │   ├── colab_finetune.ipynb       # Fine-tuning notebook
 │   └── inference_demo.ipynb       # Inference and testing notebook
 │
-├── dataset/
-│   └── train-00000.parquet        # Source dataset file (sample)
+├── dataset/                       # Dataset directory
+│   └── train-00000.parquet        # Sample dataset file
 │
 ├── lora_adapter.zip               # Trained LoRA adapter (model weights)
 │
 ├── LICENSE                        # MIT License
 ├── README.md                      # Project documentation
-└── requirements.txt               # Dependencies list
+└── requirements.txt               # Python dependencies list
+
 
 ````
 
@@ -131,22 +135,25 @@ print(generate_response("What are healthy bedtime habits?"))
 ---
 
 ## 📊 Sample Input / Output
+## 📁 Repository Structure
+
+```plaintext
 AlpaCare/
 │
-├── data_loader.py # Loads and preprocesses the dataset
+├── data_loader.py                 # Loads and preprocesses the dataset
 │
 ├── notebooks/
-│ ├── colab_finetune.ipynb # Fine-tuning notebook
-│ └── inference_demo.ipynb # Inference and testing notebook
+│   ├── colab_finetune.ipynb       # Fine-tuning notebook
+│   └── inference_demo.ipynb       # Inference and testing notebook
 │
 ├── dataset/
-│ └── train-00000.parquet # Sample dataset file
+│   └── train-00000.parquet        # Sample dataset file
 │
-├── lora_adapter.zip # Trained LoRA adapter (model weights)
+├── lora_adapter.zip               # Trained LoRA adapter (model weights)
 │
-├── LICENSE # MIT License
-├── README.md # Project documentation
-└── requirements.txt # Python dependencies list
+├── LICENSE                        # MIT License
+├── README.md                      # Project documentation
+└── requirements.txt               # Python dependencies list
 
 ---
 
@@ -212,25 +219,5 @@ Solar Industries India Ltd — AIML Internship Assessment (2025)
 
 ---
 
-## ✅ Submission Checklist
-
-| Item                  |   Status  |
-| --------------------- | :-------: |
-| Public GitHub Repo    |     ✅     |
-| README.md (Detailed)  |     ✅     |
-| LoRA Adapter Uploaded |     ✅     |
-| Fine-tuning Notebook  |     ✅     |
-| Inference Notebook    |     ✅     |
-| Dataset (≤100 MB)     |     ✅     |
-| License               |     ✅     |
-| JotForm Submission    | ⏳ Pending |
-
-```
-
----
 
 
----
-
-Would you like me to now generate a **matching `requirements.txt`** file (so you can upload that too right away)?
-```
