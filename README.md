@@ -1,7 +1,8 @@
 
 
-```markdown
-# 🧠 AlpaCare — Medical Instruction Assistant
+---
+
+## 🧠 AlpaCare — Medical Instruction Assistant
 
 📦 **GitHub Repository:** [https://github.com/atharv-17-L/AlpaCare](https://github.com/atharv-17-L/AlpaCare)
 
