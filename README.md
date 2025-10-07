@@ -32,9 +32,7 @@ The project demonstrates how small transformer models can be adapted for **domai
 
 ## 📁 Repository Structure
 
-```
-
-## 📁 Repository Structure
+---
 
 ```plaintext
 AlpaCare/
